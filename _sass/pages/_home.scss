@@ -1,0 +1,115 @@
+.homepage {
+
+  header {
+    padding-top: 6rem;
+    padding-bottom: 10rem;
+
+    h1 {
+      font-size: 4.5rem;
+    }
+
+    p {
+      margin-top: 2.5rem;
+      margin-bottom: 2.5rem;
+    }
+  }
+}
+
+.mosaic-map {
+  position: relative;
+  overflow: hidden;
+  margin-top: -15rem;
+  background: -moz-linear-gradient(top,  #ffffff 50%, #353c58 50%);
+  background: -webkit-linear-gradient(top,  #ffffff 50%,#353c58 50%);
+  background: linear-gradient(to bottom,  #ffffff 50%,#353c58 50%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#353c58',GradientType=0 );
+
+  img {
+    max-width: inherit;
+    width: 110%;
+    transform: translateX(-5%);
+  }
+}
+
+.imagery-sources-section {
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: -2px;
+
+  .row {
+    top: -100px;
+    position: relative;
+  }
+
+  @media (max-width: 1200px) {
+    padding-bottom: 40px;
+    
+    .row {
+      top: 0;
+    }
+  }
+}
+
+.sharing-section {
+  @include respond-to(xs) {
+    padding-bottom: 0;
+  }
+}
+
+.share-map {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 50%;
+  overflow: hidden;
+  background-color: $shade-normal;
+
+  @include respond-to(xs) {
+    position: relative;
+    display: block;
+    width: 100%;
+  }
+}
+
+.browse-preview {
+  width: 100%;
+  height: 100%;
+  background-color: $shade-normal;
+}
+
+.feature-cards .column-4 {
+  margin-bottom: 4rem;
+}
+
+.interface-teaser {
+  padding: 0;
+
+  img {
+    margin-top: -4rem;
+    margin-bottom: -2.5rem;
+  }
+}
+
+.call-to-action {
+  
+  .form-group {
+    box-shadow: 0 0 10px 0 rgba(black, .1);
+    border: none;
+  }
+
+  .btn {
+    min-width: 16rem;
+    font-weight: 600;
+  }
+}
+
+.sources-logos {
+  .column {
+    padding: 4rem;
+  }
+}
+
+.share-logos img {
+  max-width: 80%;
+}

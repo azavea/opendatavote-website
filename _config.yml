@@ -1,0 +1,27 @@
+title: OpenDataVote
+email: info@opendatavote.org
+description: >
+  We help you vote.
+
+baseurl: ""
+url: "http://www.opendatavote.org"
+
+repository: azavea/opendatavote-website
+
+google_analytics: ""
+
+exclude: 
+  - deployment
+  - Dockerfile
+  - Vagrantfile
+  - docker-compose.yml
+  - LICENSE
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - scripts
+  
+markdown: kramdown
+
+sass:
+  style: compressed
