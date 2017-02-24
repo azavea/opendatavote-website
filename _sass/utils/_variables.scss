@@ -4,32 +4,34 @@
  */
 
 // Brand Colors:
-$brand-primary: #738FFC;   // purple
-$brand-secondary: #2FC1D0; // green
+$brand-primary: #1cd8b6;
+$brand-secondary: $brand-primary;
 
 // Base Colors:
-$text-base: #959CAC;
-$shade-light: #959CAC;  // slightly lighter then $text-base
-$shade-normal: #465076; // deep purple
-$shade-dark: #353C58;   // deepdeep purple
+$text-base: #444849;
+$shade-light: #6e7a81;
+$shade-normal: #31383c;
+$shade-dark: #000;  
 
 // Login modal colors:
-$gray: #38394f;
-$gray-light: lighten($gray, 10%); //#4d4f6d
-$gray-lighter: lighten($gray, 35%); //#8c8dad
+$gray: #6e7a81;
+$gray-light: lighten($gray, 10%);
+$gray-lighter: lighten($gray, 35%);
 $gray-lightest: #ddd;
-$gray-dark: darken($gray, 2%); //#343549
+$gray-dark: darken($gray, 2%);
 $gray-darker: #1b1c31;
+
+
 $link-color: $brand-secondary;
 $white: #fff;
 
 // Action Colors:
-$warning: #E69348; // orange
-$danger: #F98094;  // red
-$success: #21ce90;  // red
+$warning: #E69348;
+$danger: #F98094; 
+$success: #21ce90; 
 
 // Border Radius
-$border-radius-base: 2px;
+$border-radius-base: 5px;
 
 
 /* * * *

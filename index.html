@@ -5,189 +5,260 @@ seoDescription:
 page-class: homepage
 
 header:
-  title: "Publish satellite and aerial maps in minutes, not days."
-  blurb: "We help you find, combine and analyze earth imagery at any scale, and share it on the web."
+  title: "Vote to encourage your government to publish open data"
+  blurb: "You vote on the data you want your government to publish, we coordinate with government to guarantee results."
   button:
     text: "Get started now"
     link: "#beta-signup"
 
-section2:
-  title: "Browse the whole world, updated constantly."
-  blurb: "Find free and timely imagery of anywhere on earth by searching popular open data sets like the Landsat and Sentinel archives."
+c2a:
+  title: "Nonprofit organizations: nominate an existing data set that will help you accomplish your goals!"
+  phase: "Phase 1"
+  button:
+    text: "Nominate a data set"
+    link: "#"
 
-section3:
-  title: Publish and share maps with a click.
-  blurb: "Share web-optimized maps easily in our interface or embed them in your own site. You can also include them as layers in your favorite annotation and analysis tools like ArcGIS Online, CARTO, and Leaflet."
+purpose:
+  title: "OpenDataVote encourages citizens to get involved in the process of open government."
+  subtitle: "Let's cultivate government transparency through the release of data."
 
-section4:
-  main-title: "Process earth imagery fast."
-  main-blurb: "Whether you’re working with data already accessible through our platform or uploading your own, we do the heavy lifting to make processing your imagery go quickly no matter the scale."
-  secondary-title: "Building basemaps for the web doesn’t have to hurt."
-  secondary-blurb: "Maps are meant to convey meaning, but most maps on the web rely on outdated or proprietary imagery. Raster Foundry makes it easy to create your own basemaps – on your own terms."
+about:
+  title: "OpenDataVote is organized into three phases"
+  phase:
+    one:
+      title: "Nomination"
+      subtitle: "Phase 1"
+      blurb: "nonprofit organizations nominate one or more existing data sets that would be useful to the organization, but aren't currently available to the public."
+    two:
+      title: "Voting"
+      subtitle: "Phase 2"
+      blurb: "The general public votes for either their favorite organization or the data set they want to see released."
+    three:
+      title: "Data Release"
+      subtitle: "Phase 3"
+      blurb: "OpenDataVote Partners will work with government representatives to publish the data sets that receive the most votes from the public. Nonprofits will be awarded prize money from OpenDataVote Sponsors if their data nomination wins!"
 
-feature-cards:
-  - title: "Browse public data"
-    blurb: "Access free and open imagery datasets from all over the world. Search Landsat 8, Sentinel-2, <span class='tooltip' title='Coming Soon'>MODIS</span>, and <span class='tooltip' title='Coming Soon'>NAIP</span> imagery by date of capture, cloud cover, spatial resolution, spectral bands, and other criteria."
-    icon: "icon-"
+calendar:
+  title: "Dates to remember"
+  keydates: 
+    - keydate:
+        date: "Monday, March 6, 2017"
+        event: "Data set nominations open"
+    - keydate:
+        date: "Friday, March 31, 2017"
+        event: "Data set nominations close"
+    - keydate:
+        date: "Monday, April 10, 2017"
+        event: "Voting begins"
+    - keydate:
+        date: "Thursday, May 4, 2017"
+        event: "Voting ends at <strong>11:59pm</strong>"
+    - keydate:
+        date: "Friday, May 5, 2017"
+        event: "Winners announced"
 
-  - title: "Stitch together imagery"
-    blurb: "Use our mosaicking tool to create seamless maps out of individual images from a single source or several disparate sources. Build mosaics with ease by selecting images and defining Z-index priority."
-    icon: "icon-"
+placements-sponsors:
+  sponsors-title: "OpenDataVote would like to thank the following sponsors for their generous donations"
+  sponsors:
+    - sponsor:
+        image: "/images/sponsors/azavea.png"
+        link: "https://www.azavea.com/"
+        alt: "Azavea"
+    - sponsor:
+        image: "/images/sponsors/cop.png"
+        link: "http://www.phila.gov/"
+        alt: "City of Philadelphia"
+    - sponsor:
+        image: "/images/sponsors/techimpact.png"
+        link: "http://techimpact.org/"
+        alt: "TechImpact PA"
+    - sponsor:
+        image: "/images/sponsors/technically.png"
+        link: "http://technical.ly/"
+        alt: "Technically"
 
-  - title: "Ingest your own data"
-    blurb: "Bring your own drone, manned-aerial, and satellite imagery into the Raster Foundry with a few clicks. Import data from local files, Amazon S3, <span class='tooltip' title='Coming Soon'>Dropbox</span>, or <span class='tooltip' title='Coming Soon'>Google Drive</span>."
-    icon: "icon-"
+  award-title: "The nonprofit organizations that win the most votes from the public will receive cash prizes from our generous sponsors"
+  awards:
+    - award:
+        place: "First"
+        prize: "$2,000"
+    - award:
+        place: "Second"
+        prize: "$1,000"
+    - award:
+        place: "Third"
+        prize: "$500"
 
-  - title: "Build an analysis pipeline"
-    blurb: "Develop custom algorithms to extract information from your imagery and define automated pipelines to analyze your data. As new data is added to Raster Foundry, automatically apply your algorithms, publish the results, and receive alerts."
-    icon: "icon-"
-
-  - title: "Edit and iterate quickly"
-    blurb: "Use our custom band combination, false color, color correction, and analysis tools to adjust the look and feel of your maps or highlight unique aspects of the imagery."
-    icon: "icon-"
-
-  - title: "Integrate with our API"
-    blurb: "Give your users additional data and functionality by leveraging our API. Take full advantage of the power, speed, and scalability of the Raster Foundry platform in the context of your own application."
-    icon: "icon-"
-
-
-section5:
-  title: "Be the first to try Raster Foundry"
-  blurb: "We're working with a small group of users to get started. If you think Raster Foundry would be useful for your work, sign up below and we’ll get in contact with you."
+partners:
+  title: "OpenDataVote thanks the following partners for their contributions"
+  partners:
+    - partner:
+        image: "/images/partners/azavea.png"
+        link: "https://www.azavea.com/"
+        alt: "Azavea"
+    - partner:
+        image: "/images/partners/techimpact.png"
+        link: "http://techimpact.org/"
+        alt: "TechImpact PA"
+    - partner:
+        image: "/images/partners/technically.png"
+        link: "http://technical.ly/"
+        alt: "Technically"
 ---
 
 <!-- Header -->
+<div class="pattern-header">
 {% include navigation.html %}
 <header>
   <div class="container">
     <div class="row stack-sm text-center align-center">
-      <div class="column-5">
-        <h1>{{ page.header.title }}</h1>
+      <div class="column-6">
+        <h1 class="color-white">{{ page.header.title }}</h1>
         <p>{{ page.header.blurb }}</p>
         <a href="{{ page.header.button.link }}" class="btn btn-primary btn-large">{{ page.header.button.text }}</a>
       </div>
     </div>
   </div>
 </header>
-<!-- Header -->
-<div class="mosaic-map">
-  <img src="images/mosaic-screenshot.png">
 </div>
-<!-- Section 2 -->
-<section class="bg-shade-dark imagery-sources-section">
+<!-- Header -->
+
+<!-- Call to action -->
+<section class="call-to-action">
   <div class="container">
-    <div class="row stack-sm text-center align-center">
-      <div class="column-7">
-        <h2 class="color-white">{{ page.section2.title }}</h2>
-        <p class="color-shade-light">{{ page.section2.blurb }}</p>
+    <div class="row stack-sm align-center columns-center">
+      <div class="column-4">
+        <span class="phase">{{ page.c2a.phase }}</span>
+        <h2 class="h4">{{ page.c2a.title }}</h2>
+      </div>
+      <div class="column-2">
+        <a href="{{ page.c2.button.link }}" class="btn btn-primary btn-large">{{ page.c2a.button.text }}</a>
       </div>
     </div>
   </div>
 </section>
+<!-- Call to action -->
 
-<!-- Section 3 -->
-<section class="bg-shade-normal sharing-section">
+<!-- Purpose -->
+<section class="purpose">
   <div class="container">
-    <div class="row stack-xs">
-      <div class="column-4">
-        <h2 class="color-white">{{ page.section3.title }}</h2>
-        <p class="color-shade-light">{{ page.section3.blurb }}</p>
-        <div class="row columns-center share-logos">
-          <div class="column"><img src="images/logos/carto-logo.png"></div>
-          <div class="column"><img src="images/logos/leaflet-logo.png"></div>
-          <div class="column"><img src="images/logos/arcgis-logo.png"></div>
+    <div class="row stack-sm align-center columns-center">
+      <div class="column-6 text-center">
+        <h2 class="h2">{{ page.purpose.title }}</h2>
+        <p class="h5">{{ page.purpose.subtitle }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Purpose -->
+
+<!-- about -->
+<section class="about">
+  <div class="container">
+    <h2 class="h3 text-center">{{ page.about.title }}</h2>
+    <div class="row stack-sm align-center">
+      <div class="column">
+        <div class="card">
+          <span class="phase">{{ page.about.phase.one.subtitle }}</span>
+          <h2 class="h3 card-title">{{ page.about.phase.one.title }}</h2>
+          <p>{{ page.about.phase.one.blurb }}</p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <span class="phase">{{ page.about.phase.two.subtitle }}</span>
+          <h2 class="h3 card-title">{{ page.about.phase.two.title }}</h2>
+          <p>{{ page.about.phase.two.blurb }}</p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <span class="phase">{{ page.about.phase.three.subtitle }}</span>
+          <h2 class="h3 card-title">{{ page.about.phase.three.title }}</h2>
+          <p>{{ page.about.phase.three.blurb }}</p>
         </div>
       </div>
     </div>
   </div>
-  <div class="share-map">
-    <video class="browse-preview" autoplay loop poster="images/raster-foundry-browser-preview.gif">
-      <source src="images/raster-foundry-browser-preview.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-  </div>
 </section>
-<!-- Section 3 -->
+<!-- about -->
 
-<!-- Section 4 -->
-<section class="bg-fade-light">
-  <div class="container-small">
-    <div class="row stack-sm text-center align-center">
-      <div class="column-6">
-        <h2>{{ page.section4.main-title }}</h2>
-        <p>{{ page.section4.main-blurb }}</p>
-      </div>
-    </div>
-    <div class="row stack-sm feature-cards">
-      {% for card in page.feature-cards %}
-      <div class="column-4 column-stretch">
-        <div class="card">
-          <i class="icon-"></i>
-          <h3 class="color-primary card-title">{{ card.title }}</h3>
-          <p>{{ card.blurb }}</p>
+<!-- Key dates -->
+<section class="key-dates">
+  <div class="container">
+    <h2 class="h2 text-center">{{ page.calendar.title }}</h2>
+    <div class="row stack-sm align-center">
+      {% for date in page.calendar.keydates %}
+      <div class="column">
+        <div class="card date">
+          <h4 class="card-title">{{ date.keydate.date }}</h2>
+          <div class="card-body">
+            <p>{{ date.keydate.event }}</p>
+          </div>
         </div>
       </div>
       {% endfor %}
     </div>
-    <div class="row stack-sm text-center align-center">
-      <div class="column-6">
-        <h2 class="color-primary">{{ page.section4.secondary-title }}</h2>
-        <p>{{ page.section4.secondary-blurb }}</p>
-      </div>
-    </div>
   </div>
 </section>
-<!-- Section 4 -->
+<!-- Key dates -->
 
-<!-- Section 5 -->
-<section class="bg-shade-lightest interface-teaser">
+<!-- Awards & Sponsors -->
+<section class="awards">
   <div class="container">
-    <img src="images/interface-screens.png">
-  </div>
-</section>
-<!-- Section 5 -->
-
-<!-- Section 6 -->
-<section class="bg-primary call-to-action" id="beta-signup">
-  <div class="container">
-    <div class="row stack-sm text-center align-center">
-      <div class="column-6">
-        <h2 class="color-white">{{ page.section5.title }}</h2>
-        <p class="color-white">{{ page.section5.blurb }}</p>
-
-        <!-- Begin MailChimp Signup Form -->
-        <div id="mc_embed_signup">
-
-          <!-- Begin Form -->
-          <form action="//rasterfoundry.us1.list-manage.com/subscribe/post?u=61da999c9897859f1c1fff262&amp;id=2105a165ee&SIGNUP=Homepage" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-            <!-- Form group -->
-            <div class="form-group all-in-one mc-field-group">
-              <label for="mce-EMAIL" class="sr-only">Enter your email address</label>
-              <input type="email" value="" name="EMAIL" class="required form-control" id="mce-EMAIL" placeholder="Email address">
-              
-              <!-- Bot prevention input from mailchimp -->
-              <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_61da999c9897859f1c1fff262_2105a165ee" tabindex="-1" value=""></div>
-              <input type="submit" value="Join private beta" name="subscribe" id="mc-embedded-subscribe" class="btn btn-link">
+    <div class="row stack-sm align-center">
+      <div class="column-4">
+        <span class="subtitle">Sponsors</span>
+        <h2 class="h4 secondary-headings">{{ page.placements-sponsors.sponsors-title }}</h2>
+        <br>
+        <div class="row stack-sm columns-center">
+          {% for sponsor in page.placements-sponsors.sponsors %}
+            <div class="logos column-3">
+              <a href="{{ sponsor.sponsor.link }}" target="_blank">
+                <img src="{{ sponsor.sponsor.image }}" alt="{{ sponsor.sponsor.alt }}">
+              </a>
             </div>
-            <!-- End Form group -->
-            <!-- Form Responses -->
-            <div id="mce-responses">
-              <div class="response error" id="mce-error-response" style="display:none"></div>
-              <div class="response success" id="mce-success-response" style="display:none"></div>
-            </div>
-            <!-- End Form responses -->
-          </form>
-          <!-- End Form -->
-
-          <!-- Mailchimp JS for validation -->
-          <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
-          <!-- Mailchimp JS for validation -->
+          {% endfor %}
         </div>
-        <!--End mc_embed_signup-->
+      </div>
+      <div class="column-4">
+        <span class="subtitle">Prizes</span>
+        <h2 class="h4 secondary-headings">{{ page.placements-sponsors.award-title }}</h2>
+        <div class="award-block stack-xs">
+          {% for prize in page.placements-sponsors.awards %}
+            <div class="award" id="{{ prize.award.place }}">
+              <h4 class="award-title">{{ prize.award.place }}</h4>
+              <div class="award-body">
+                <p>{{ prize.award.prize }}</p>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
       </div>
     </div>
   </div>
 </section>
-<!-- Section 6 -->
+<!-- Awards & Sponsors -->
+
+<!-- Partners -->
+<section class="partners">
+  <div class="container">
+    <div class="row stack-sm align-center columns-center">
+      <div class="column-6 text-center">
+        <h2 class="h4">{{ page.partners.title }}</h2>
+        <div class="row stack-sm align-center columns-center">
+          {% for partner in page.partners.partners %}
+            <div class="logos column-2">
+              <a href="{{ partner.partner.link }}" target="_blank">
+                <img src="{{ partner.partner.image }}" alt="{{ partner.partner.alt }}">
+              </a>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Partners -->
 
 {% include footer.html %}

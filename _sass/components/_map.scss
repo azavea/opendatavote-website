@@ -47,19 +47,19 @@
   }
 
   .leaflet-control-zoom-in {
-    border-radius: 2px 0 0 2px;
+    border-radius: $border-radius-base 0 0 $border-radius-base;
     border-right: none !important;
 
     &:hover {
       border-right: none !important;
-      border-radius: 2px 0 0 2px;
+      border-radius: $border-radius-base 0 0 $border-radius-base;
     }
   }
   .leaflet-control-zoom-out {
-    border-radius: 0 2px 2px 0;
+    border-radius: 0 $border-radius-base $border-radius-base 0;
 
     &:hover {
-      border-radius: 0 2px 2px 0;
+      border-radius: 0 $border-radius-base $border-radius-base 0;
     }
   }
 
@@ -77,7 +77,7 @@
   background: $shade-dark;
   color: $text-base;
   margin: 5px;
-  border-radius: 2px;
+  border-radius: $border-radius-base;
   padding: 4px 10px;
   opacity: .5;
   transition: .1s ease-in-out opacity;

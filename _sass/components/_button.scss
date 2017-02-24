@@ -35,8 +35,9 @@
   font-weight: 500;
   line-height: 1;
   text-align: center;
+  font-weight: 600;
   text-decoration: none;
-  border-radius: 2px;
+  border-radius: $border-radius-base;
   user-select: none;
   background: #fff;
   border: 1px solid $shade-light;
@@ -79,9 +80,14 @@
 .btn-primary {
   background: $brand-primary;
   border-color: darken($brand-primary, 5%);
-  color: #fff;
+  color: $text-base;
 
   @include button-states($brand-primary);
+
+  &:hover, &.hover,
+  &:active, &.active, {
+    color: #000;
+  }
 }
 
 .btn-secondary {

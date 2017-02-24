@@ -12,51 +12,18 @@
   <title>{{ site.title }}{% if page.title %} - {{ page.title }}{% endif %}</title>
   <meta name="description" content="{% if page.seoDescription %}{{ page.seoDescription }}{% endif %}">
 
-  <!-- Twitter Card data -->
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:site" content="@rasterfoundry">
-  <meta name="twitter:title" content="Raster Foundry">
-  <meta name="twitter:description" content="An open source web platform that helps companies quickly find, combine, and analyze earth observation data at any scale.">
-  <meta name="twitter:creator" content="@rasterfoundry">
-  <meta name="twitter:image" content="https://rasterfoundry.com/images/seo/twitter-card.jpg">
-
-  <!-- Facebook Metadata  -->
-  <meta property="og:image:height" content="1257">
-  <meta property="og:image:width" content="2400">
-  <meta property="og:description" content="An open source web platform that helps companies quickly find, combine, and analyze earth observation data at any scale.">
-  <meta property="og:title" content="Raster Foundry">
-  <meta property="og:image" content="https://rasterfoundry.com/images/seo/og-image.jpg">
-  <meta property="og:url" content="rasterfoundry.com">
-
   <!-- Favicons -->
-  <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/images/favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" href="{{ site.baseurl }}/images/favicon/favicon-32x32.png" sizes="32x32">
-  <link rel="icon" type="image/png" href="{{ site.baseurl }}/images/favicon/favicon-16x16.png" sizes="16x16">
-  <link rel="manifest" href="{{ site.baseurl }}/images/favicon/manifest.json">
-  <link rel="mask-icon" href="{{ site.baseurl }}/images/favicon/safari-pinned-tab.svg" color="#464f77">
-  <link rel="shortcut icon" href="{{ site.baseurl }}/images/favicon/favicon.ico">
-  <meta name="msapplication-config" content="{{ site.baseurl }}/images/favicon/browserconfig.xml">
-  <meta name="theme-color" content="#464f77">
   
   <!-- Stylesheets -->
   <link rel="stylesheet" href="{{ site.baseurl }}/fontello/css/fontello.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Titillium+Web:400,600,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
 
 </head>
 <body {%if page.page-class%} class="{{ page.page-class }}" {% endif %}>
   {{ content }}
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-    ga('create', '{{ site.google_analytics }}', 'auto');
-    ga('send', 'pageview');
-  </script>
 </body>
 </html>
 
