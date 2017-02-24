@@ -1,0 +1,11 @@
+section {
+  @extend %clearfix;
+  display: block;
+  position: relative;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+section.copy {
+  background-color: #eee;
+}

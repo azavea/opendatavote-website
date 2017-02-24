@@ -1,0 +1,12 @@
+header {
+  padding: 5rem 0;
+  position: relative;
+  z-index: 1;
+  color: #fff;
+}
+
+.pattern-header {
+  background-image: url('/images/pattern.png');
+  background-color: $shade-normal;
+  background-size: 250px;
+}

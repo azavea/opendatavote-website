@@ -1,0 +1,63 @@
+/* 
+ * LMC Variables
+ * If overridng bootstrap please place inside _bs-variables.scss
+ */
+
+// Brand Colors:
+$brand-primary: #1cd8b6;
+$brand-secondary: $brand-primary;
+
+// Base Colors:
+$text-base: #444849;
+$shade-light: #6e7a81;
+$shade-normal: #31383c;
+$shade-dark: #000;  
+
+// Login modal colors:
+$gray: #6e7a81;
+$gray-light: lighten($gray, 10%);
+$gray-lighter: lighten($gray, 35%);
+$gray-lightest: #ddd;
+$gray-dark: darken($gray, 2%);
+$gray-darker: #1b1c31;
+
+
+$link-color: $brand-secondary;
+$white: #fff;
+
+// Action Colors:
+$warning: #E69348;
+$danger: #F98094; 
+$success: #21ce90; 
+
+// Border Radius
+$border-radius-base: 5px;
+
+
+/* * * *
+ * Screen Sizes
+ * Used in _mixins.scss > @mixin respond-to($breakpoint)
+ * * * */
+$breakpoints: (
+
+  'xxs': (max-width: 480px),
+
+  'xs': (max-width: 767px),
+
+  'sm': "(min-width: 768px) and (max-width: 991px)",
+  'sm-up': (min-width: 768px),
+  'sm-down': (max-width: 991px),
+
+  'md': "(min-width: 992px) and (max-width: 1180px)",
+  'md-up': (min-width: 992px),
+  'md-down': (max-width: 1180px),
+
+  'lg': (min-width: 1181px),
+);
+
+
+/* * * *
+ * Columns
+ * * * */
+$column-count: 8;
+$column-padding: 1rem;

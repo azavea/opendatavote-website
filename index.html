@@ -1,0 +1,264 @@
+---
+layout: default
+title: "Find, combine, and analyze earth observation data"
+seoDescription: 
+page-class: homepage
+
+header:
+  title: "Vote to encourage your government to publish open data"
+  blurb: "You vote on the data you want your government to publish, we coordinate with government to guarantee results."
+  button:
+    text: "Get started now"
+    link: "#beta-signup"
+
+c2a:
+  title: "Nonprofit organizations: nominate an existing data set that will help you accomplish your goals!"
+  phase: "Phase 1"
+  button:
+    text: "Nominate a data set"
+    link: "#"
+
+purpose:
+  title: "OpenDataVote encourages citizens to get involved in the process of open government."
+  subtitle: "Let's cultivate government transparency through the release of data."
+
+about:
+  title: "OpenDataVote is organized into three phases"
+  phase:
+    one:
+      title: "Nomination"
+      subtitle: "Phase 1"
+      blurb: "nonprofit organizations nominate one or more existing data sets that would be useful to the organization, but aren't currently available to the public."
+    two:
+      title: "Voting"
+      subtitle: "Phase 2"
+      blurb: "The general public votes for either their favorite organization or the data set they want to see released."
+    three:
+      title: "Data Release"
+      subtitle: "Phase 3"
+      blurb: "OpenDataVote Partners will work with government representatives to publish the data sets that receive the most votes from the public. Nonprofits will be awarded prize money from OpenDataVote Sponsors if their data nomination wins!"
+
+calendar:
+  title: "Dates to remember"
+  keydates: 
+    - keydate:
+        date: "Monday, March 6, 2017"
+        event: "Data set nominations open"
+    - keydate:
+        date: "Friday, March 31, 2017"
+        event: "Data set nominations close"
+    - keydate:
+        date: "Monday, April 10, 2017"
+        event: "Voting begins"
+    - keydate:
+        date: "Thursday, May 4, 2017"
+        event: "Voting ends at <strong>11:59pm</strong>"
+    - keydate:
+        date: "Friday, May 5, 2017"
+        event: "Winners announced"
+
+placements-sponsors:
+  sponsors-title: "OpenDataVote would like to thank the following sponsors for their generous donations"
+  sponsors:
+    - sponsor:
+        image: "/images/sponsors/azavea.png"
+        link: "https://www.azavea.com/"
+        alt: "Azavea"
+    - sponsor:
+        image: "/images/sponsors/cop.png"
+        link: "http://www.phila.gov/"
+        alt: "City of Philadelphia"
+    - sponsor:
+        image: "/images/sponsors/techimpact.png"
+        link: "http://techimpact.org/"
+        alt: "TechImpact PA"
+    - sponsor:
+        image: "/images/sponsors/technically.png"
+        link: "http://technical.ly/"
+        alt: "Technically"
+
+  award-title: "The nonprofit organizations that win the most votes from the public will receive cash prizes from our generous sponsors"
+  awards:
+    - award:
+        place: "First"
+        prize: "$2,000"
+    - award:
+        place: "Second"
+        prize: "$1,000"
+    - award:
+        place: "Third"
+        prize: "$500"
+
+partners:
+  title: "OpenDataVote thanks the following partners for their contributions"
+  partners:
+    - partner:
+        image: "/images/partners/azavea.png"
+        link: "https://www.azavea.com/"
+        alt: "Azavea"
+    - partner:
+        image: "/images/partners/techimpact.png"
+        link: "http://techimpact.org/"
+        alt: "TechImpact PA"
+    - partner:
+        image: "/images/partners/technically.png"
+        link: "http://technical.ly/"
+        alt: "Technically"
+---
+
+<!-- Header -->
+<div class="pattern-header">
+{% include navigation.html %}
+<header>
+  <div class="container">
+    <div class="row stack-sm text-center align-center">
+      <div class="column-6">
+        <h1 class="color-white">{{ page.header.title }}</h1>
+        <p>{{ page.header.blurb }}</p>
+        <a href="{{ page.header.button.link }}" class="btn btn-primary btn-large">{{ page.header.button.text }}</a>
+      </div>
+    </div>
+  </div>
+</header>
+</div>
+<!-- Header -->
+
+<!-- Call to action -->
+<section class="call-to-action">
+  <div class="container">
+    <div class="row stack-sm align-center columns-center">
+      <div class="column-4">
+        <span class="phase">{{ page.c2a.phase }}</span>
+        <h2 class="h4">{{ page.c2a.title }}</h2>
+      </div>
+      <div class="column-2">
+        <a href="{{ page.c2.button.link }}" class="btn btn-primary btn-large">{{ page.c2a.button.text }}</a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Call to action -->
+
+<!-- Purpose -->
+<section class="purpose">
+  <div class="container">
+    <div class="row stack-sm align-center columns-center">
+      <div class="column-6 text-center">
+        <h2 class="h2">{{ page.purpose.title }}</h2>
+        <p class="h5">{{ page.purpose.subtitle }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Purpose -->
+
+<!-- about -->
+<section class="about">
+  <div class="container">
+    <h2 class="h3 text-center">{{ page.about.title }}</h2>
+    <div class="row stack-sm align-center">
+      <div class="column">
+        <div class="card">
+          <span class="phase">{{ page.about.phase.one.subtitle }}</span>
+          <h2 class="h3 card-title">{{ page.about.phase.one.title }}</h2>
+          <p>{{ page.about.phase.one.blurb }}</p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <span class="phase">{{ page.about.phase.two.subtitle }}</span>
+          <h2 class="h3 card-title">{{ page.about.phase.two.title }}</h2>
+          <p>{{ page.about.phase.two.blurb }}</p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <span class="phase">{{ page.about.phase.three.subtitle }}</span>
+          <h2 class="h3 card-title">{{ page.about.phase.three.title }}</h2>
+          <p>{{ page.about.phase.three.blurb }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- about -->
+
+<!-- Key dates -->
+<section class="key-dates">
+  <div class="container">
+    <h2 class="h2 text-center">{{ page.calendar.title }}</h2>
+    <div class="row stack-sm align-center">
+      {% for date in page.calendar.keydates %}
+      <div class="column">
+        <div class="card date">
+          <h4 class="card-title">{{ date.keydate.date }}</h2>
+          <div class="card-body">
+            <p>{{ date.keydate.event }}</p>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+<!-- Key dates -->
+
+<!-- Awards & Sponsors -->
+<section class="awards">
+  <div class="container">
+    <div class="row stack-sm align-center">
+      <div class="column-4">
+        <span class="subtitle">Sponsors</span>
+        <h2 class="h4 secondary-headings">{{ page.placements-sponsors.sponsors-title }}</h2>
+        <br>
+        <div class="row stack-sm columns-center">
+          {% for sponsor in page.placements-sponsors.sponsors %}
+            <div class="logos column-3">
+              <a href="{{ sponsor.sponsor.link }}" target="_blank">
+                <img src="{{ sponsor.sponsor.image }}" alt="{{ sponsor.sponsor.alt }}">
+              </a>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="column-4">
+        <span class="subtitle">Prizes</span>
+        <h2 class="h4 secondary-headings">{{ page.placements-sponsors.award-title }}</h2>
+        <div class="award-block stack-xs">
+          {% for prize in page.placements-sponsors.awards %}
+            <div class="award" id="{{ prize.award.place }}">
+              <h4 class="award-title">{{ prize.award.place }}</h4>
+              <div class="award-body">
+                <p>{{ prize.award.prize }}</p>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Awards & Sponsors -->
+
+<!-- Partners -->
+<section class="partners">
+  <div class="container">
+    <div class="row stack-sm align-center columns-center">
+      <div class="column-6 text-center">
+        <h2 class="h4">{{ page.partners.title }}</h2>
+        <div class="row stack-sm align-center columns-center">
+          {% for partner in page.partners.partners %}
+            <div class="logos column-2">
+              <a href="{{ partner.partner.link }}" target="_blank">
+                <img src="{{ partner.partner.image }}" alt="{{ partner.partner.alt }}">
+              </a>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Partners -->
+
+{% include footer.html %}

@@ -1,0 +1,89 @@
+.navbar, .subnav {
+  @extend %clearfix;
+  position: relative;
+  padding: 10px 0;
+  background-color: $shade-normal;
+
+  .container {
+    display: flex;
+
+    @include respond-to('xxs') {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+
+  nav {
+    display: inline-block;
+    vertical-align: middle;
+
+    a {
+      color: #fff;
+      padding: 1rem 1.5rem;
+
+      &:hover {
+        background-color: $brand-primary;
+        border-radius: $border-radius-base;
+      }
+    }
+  }
+}
+
+.navbar {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.subnav {
+  padding: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+
+  nav a {
+    padding: 1rem;
+    margin-right: 1.5rem;
+    color: $shade-light;
+
+    &:hover {
+      color: #fff;
+      background: none;
+    }
+  }
+}
+
+.navbar-left {
+  flex: 1;
+}
+
+.navbar-right {
+  flex: 1;
+  justify-content: flex-end;
+  text-align: right;
+
+  @include respond-to('xs') {
+    text-align: center;
+  }
+}
+
+.brand {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 2.4rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: #fff;
+
+  img {
+    max-width: 20rem;
+  }
+}
+
+.navbar-vertical-divider {
+  display: inline-block;
+  width: 1px;
+  height: 48px;
+  background-color: $shade-dark;
+  vertical-align: middle;
+
+  @include respond-to('xxs') {
+    display: none;
+  }
+}
