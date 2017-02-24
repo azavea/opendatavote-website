@@ -1,6 +1,5 @@
 .tooltip {
   position: relative;
-  font-style: italic;
   color: $brand-primary;
   white-space: nowrap;
 
@@ -11,7 +10,7 @@
     left: 50%;
     transform: translate(-50%);
     background: $shade-normal;
-    border-radius: 2px;
+    border-radius: $border-radius-base;
     color: white;
     font-style: normal;
     text-align: center;
