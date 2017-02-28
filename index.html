@@ -1,26 +1,26 @@
 ---
 layout: default
-title: "Find, combine, and analyze earth observation data"
-seoDescription: 
+title: "Vote to open government data & support your community"
+seoDescription: "OpenDataVote - Vote to open government data & support your community"
 page-class: homepage
 
 header:
   title: "Vote to encourage your government to publish open data"
-  blurb: "You vote on the data you want your government to publish, we coordinate with government to guarantee results."
+  blurb: "Community groups nominate data that would help them have greater postive impact, then the public votes for the data they want to support."
   button:
-    text: "Get started now"
-    link: "#beta-signup"
+    text: "Join the cause"
+    link: "#call-to-action"
 
 c2a:
   title: "Nonprofit organizations: nominate an existing data set that will help you accomplish your goals!"
   phase: "Phase 1"
   button:
-    text: "Nominate a data set"
-    link: "#"
+    text: "Nominate a Data Set"
+    link: "#nominate-data"
 
 purpose:
-  title: "OpenDataVote encourages citizens to get involved in the process of open government."
-  subtitle: "Let's cultivate government transparency through the release of data."
+  title: "OpenDataVote encourages citizens to get involved in the process of open government and cultivates government transparency through the release of data."
+  subtitle:
 
 about:
   title: "OpenDataVote is organized into three phases"
@@ -28,7 +28,7 @@ about:
     one:
       title: "Nomination"
       subtitle: "Phase 1"
-      blurb: "nonprofit organizations nominate one or more existing data sets that would be useful to the organization, but aren't currently available to the public."
+      blurb: "Nonprofit organizations nominate one or more existing data sets that would be useful to the organization, but aren't currently available to the public."
     two:
       title: "Voting"
       subtitle: "Phase 2"
@@ -39,22 +39,27 @@ about:
       blurb: "OpenDataVote Partners will work with government representatives to publish the data sets that receive the most votes from the public. Nonprofits will be awarded prize money from OpenDataVote Sponsors if their data nomination wins!"
 
 calendar:
-  title: "Dates to remember"
-  keydates: 
+  title: "Dates to Remember"
+  keydates:
     - keydate:
-        date: "Monday, March 6, 2017"
+        day: "Monday"
+        date: "March 6, 2017"
         event: "Data set nominations open"
     - keydate:
-        date: "Friday, March 31, 2017"
+        day: "Friday"
+        date: "March 31, 2017"
         event: "Data set nominations close"
     - keydate:
-        date: "Monday, April 10, 2017"
+        day: "Monday"
+        date: "April 10, 2017"
         event: "Voting begins"
     - keydate:
-        date: "Thursday, May 4, 2017"
+        day: "Thursday"
+        date: "May 4, 2017"
         event: "Voting ends at <strong>11:59pm</strong>"
     - keydate:
-        date: "Friday, May 5, 2017"
+        day: "Friday"
+        date: "May 5, 2017"
         event: "Winners announced"
 
 placements-sponsors:
@@ -114,7 +119,7 @@ partners:
     <div class="row stack-sm text-center align-center">
       <div class="column-6">
         <h1 class="color-white">{{ page.header.title }}</h1>
-        <p>{{ page.header.blurb }}</p>
+        <!--<p>{{ page.header.blurb }}</p>-->
         <a href="{{ page.header.button.link }}" class="btn btn-primary btn-large">{{ page.header.button.text }}</a>
       </div>
     </div>
@@ -124,7 +129,7 @@ partners:
 <!-- Header -->
 
 <!-- Call to action -->
-<section class="call-to-action">
+<section id="call-to-action" class="call-to-action">
   <div class="container">
     <div class="row stack-sm align-center columns-center">
       <div class="column-4">
@@ -191,7 +196,7 @@ partners:
       {% for date in page.calendar.keydates %}
       <div class="column">
         <div class="card date">
-          <h4 class="card-title">{{ date.keydate.date }}</h2>
+          <h4 class="card-title">{{ date.keydate.day }}<br />{{ date.keydate.date }}</h2>
           <div class="card-body">
             <p>{{ date.keydate.event }}</p>
           </div>

@@ -1,7 +1,7 @@
 ---
 layout: secondary
-title: "Find, combine, and analyze earth observation data"
-seoDescription: 
+title: "Vote to open government data & support your community"
+seoDescription: "OpenDataVote - Vote to open government data & support your community"
 
 page-title: "Rules and Eligibility"
 ---
@@ -35,7 +35,7 @@ The following rules apply to the operation of the contest:
   - If this data set were available, how would your organization use it?
   - How would this data set contribute to your organization's mission?
 - Organizations may encourage people to vote for their project using any means available to them including: outreach, newsletters, email, Twitter, Facebook, Google+, etc.
-- If your organization wins a prize, you will be expected to have a representative attend one or more of the hack-a-thon events in order to pitch 
+- If your organization wins a prize, you will be expected to have a representative attend one or more of the hack-a-thon events in order to pitch
 
 #### For the general public:
 - You must register with OpenDataPhilly in order to vote
