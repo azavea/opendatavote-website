@@ -1,18 +1,41 @@
 footer {
   @extend %clearfix;
   display: block;
-  background-color: $shade-light;
+  background-color: $shade-normal;
   padding-top: 4rem;
   padding-bottom: 4rem;
   color: $shade-normal;
 
   .brand {
     max-width: 20rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   }
 
   a,
   .tooltip {
     color: #fff;
+    text-decoration: underline;
+
+    &:hover {
+      color: $brand-primary;
+    }
+  }
+
+  p {
+    color: #fff;
+    font-size: 1.4rem;
+    max-width: 315px;
+  }
+
+  .contact {
+    margin-top: -4rem;
+    padding: 4rem 0;
+    margin-bottom: 20px;
+    background-color: #6CECD5;
+
+    p {
+      max-width: inherit;
+      color: $shade-normal;
+    }
   }
 }
