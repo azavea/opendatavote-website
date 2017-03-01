@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Vote to open government data & support your community"
-seoDescription: "OpenDataVote - Vote to open government data & support your community"
+title: "Vote to open government data &amp; support your community"
+seoDescription: "OpenDataVote - Vote to open government data &amp; support your community"
 page-class: homepage
 
 header:
@@ -63,7 +63,7 @@ calendar:
         event: "Winners announced"
 
 placements-sponsors:
-  sponsors-title: "OpenDataVote would like to thank the following sponsors for their generous donations"
+  sponsors-title: "OpenDataVote would not be possible without contributions from generous sponsors."
   sponsors:
     - sponsor:
         image: "/images/sponsors/azavea.png"
@@ -95,7 +95,7 @@ placements-sponsors:
         prize: "$500"
 
 partners:
-  title: "OpenDataVote thanks the following partners for their contributions"
+  title: "OpenDataVote is a cooperative effort between several organizations."
   partners:
     - partner:
         image: "/images/partners/azavea.png"
@@ -137,7 +137,7 @@ partners:
         <h2 class="h4">{{ page.c2a.title }}</h2>
       </div>
       <div class="column-2">
-        <a href="{{ page.c2.button.link }}" class="btn btn-primary btn-large">{{ page.c2a.button.text }}</a>
+        <a href="{{ page.c2.button.link }}" class="btn btn-default btn-large">{{ page.c2a.button.text }}</a>
       </div>
     </div>
   </div>
@@ -196,7 +196,10 @@ partners:
       {% for date in page.calendar.keydates %}
       <div class="column">
         <div class="card date">
-          <h4 class="card-title">{{ date.keydate.day }}<br />{{ date.keydate.date }}</h2>
+          <h4 class="card-title">
+            {{ date.keydate.date }}<br>
+            <span>{{ date.keydate.day }}</span>
+          </h2>
           <div class="card-body">
             <p>{{ date.keydate.event }}</p>
           </div>
@@ -212,22 +215,8 @@ partners:
 <section class="awards">
   <div class="container">
     <div class="row stack-sm align-center">
-      <div class="column-4">
-        <span class="subtitle">Sponsors</span>
-        <h2 class="h4 secondary-headings">{{ page.placements-sponsors.sponsors-title }}</h2>
-        <br>
-        <div class="row stack-sm columns-center">
-          {% for sponsor in page.placements-sponsors.sponsors %}
-            <div class="logos column-3">
-              <a href="{{ sponsor.sponsor.link }}" target="_blank">
-                <img src="{{ sponsor.sponsor.image }}" alt="{{ sponsor.sponsor.alt }}">
-              </a>
-            </div>
-          {% endfor %}
-        </div>
-      </div>
-      <div class="column-4">
-        <span class="subtitle">Prizes</span>
+      <div class="column-6 text-center">
+        <h2 class="h2 text-center">Prizes</h2>
         <h2 class="h4 secondary-headings">{{ page.placements-sponsors.award-title }}</h2>
         <div class="award-block stack-xs">
           {% for prize in page.placements-sponsors.awards %}
@@ -236,6 +225,21 @@ partners:
               <div class="award-body">
                 <p>{{ prize.award.prize }}</p>
               </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="column-6 text-center">
+        <br>
+        <h2 class="h2">Sponsors</h2>
+        <h2 class="h4 secondary-headings">{{ page.placements-sponsors.sponsors-title }}</h2>
+        <br>
+        <div class="row stack-sm columns-center">
+          {% for sponsor in page.placements-sponsors.sponsors %}
+            <div class="logos column-2">
+              <a href="{{ sponsor.sponsor.link }}" target="_blank">
+                <img src="{{ sponsor.sponsor.image }}" alt="{{ sponsor.sponsor.alt }}">
+              </a>
             </div>
           {% endfor %}
         </div>
@@ -250,6 +254,7 @@ partners:
   <div class="container">
     <div class="row stack-sm align-center columns-center">
       <div class="column-6 text-center">
+        <h2 class="h2">Partners</h2>
         <h2 class="h4">{{ page.partners.title }}</h2>
         <div class="row stack-sm align-center columns-center">
           {% for partner in page.partners.partners %}
