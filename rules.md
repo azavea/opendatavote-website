@@ -6,7 +6,7 @@ seoDescription: "OpenDataVote - Vote to open government data & support your comm
 page-title: "Rules and Eligibility"
 ---
 ### Organization Eligibility
-OpenDataVote is open to 501c(3) organizations based in Pennsylvania or regional organizations with service area that significantly overlaps with Pennsylvania. However, these organizations may receive votes for their proposed data set from anyone in the world.
+OpenDataVote is open to 501c(3) organizations based in Philadelphia or regional organizations with service area that significantly overlaps with Philadelphia. However, these organizations may receive votes for their proposed data set from anyone in the world.
 
 ### Voter Eligibility
 Individuals must register to vote for a data set. Each person may only vote once, or if feasible, once within a given time period.

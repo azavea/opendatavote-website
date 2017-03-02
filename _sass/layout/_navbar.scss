@@ -2,7 +2,7 @@
   @extend %clearfix;
   position: relative;
   padding: 10px 0;
-  background-color: $shade-normal;
+  background-color: #fff;
 
   .container {
     display: flex;
@@ -18,7 +18,7 @@
     vertical-align: middle;
 
     a {
-      color: #fff;
+      color: $shade-normal;
       padding: 1rem 1.5rem;
 
       &:hover {

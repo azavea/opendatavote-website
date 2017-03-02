@@ -16,7 +16,7 @@ c2a:
   phase: "Phase 1"
   button:
     text: "Nominate a Data Set"
-    link: "#nominate-data"
+    link: "https://docs.google.com/a/azavea.com/forms/d/e/1FAIpQLScPvki4Xf8-dGBGjbn_nfaDCTHWwtBymEOojyEo9JhWD9eMhQ/viewform"
 
 purpose:
   title: "OpenDataVote encourages citizens to get involved in the process of open government and cultivates government transparency through the release of data."
@@ -64,23 +64,17 @@ calendar:
 
 placements-sponsors:
   sponsors-title: "OpenDataVote would not be possible without contributions from generous sponsors."
+  sponsors-c2a: "Would you like to support OpenDataVote? 100% of your donation will be awarded to nonprofits. <a href='mailto:info@opendatavote.org?subject=OpenDataVote Sponsor Inquiry'>Contact us.</a>"
   sponsors:
     - sponsor:
         image: "/images/sponsors/azavea.png"
         link: "https://www.azavea.com/"
         alt: "Azavea"
     - sponsor:
-        image: "/images/sponsors/cop.png"
-        link: "http://www.phila.gov/"
-        alt: "City of Philadelphia"
-    - sponsor:
-        image: "/images/sponsors/techimpact.png"
-        link: "http://techimpact.org/"
-        alt: "TechImpact PA"
-    - sponsor:
-        image: "/images/sponsors/technically.png"
-        link: "http://technical.ly/"
-        alt: "Technically"
+        image: "/images/sponsors/reed-tech.png"
+        link: "http://www.reedtech.com/"
+        alt: "Reed Tech"
+    
 
   award-title: "The nonprofit organizations that win the most votes from the public will receive cash prizes from our generous sponsors"
   awards:
@@ -102,6 +96,14 @@ partners:
         link: "https://www.azavea.com/"
         alt: "Azavea"
     - partner:
+        image: "/images/sponsors/cop.png"
+        link: "https://beta.phila.gov/departments/office-of-open-data-and-digital-transformation/"
+        alt: "City of Philadelphia"
+    - partner:
+        image: "/images/partners/generocity.png"
+        link: "https://generocity.org/philly"
+        alt: "Code for Philly"
+    - partner:
         image: "/images/partners/techimpact.png"
         link: "http://techimpact.org/"
         alt: "TechImpact PA"
@@ -109,6 +111,10 @@ partners:
         image: "/images/partners/technically.png"
         link: "http://technical.ly/"
         alt: "Technically"
+    - partner:
+        image: "/images/partners/code-for-philly.png"
+        link: "https://codeforphilly.org/"
+        alt: "Code for Philly"
 ---
 
 <!-- Header -->
@@ -118,9 +124,7 @@ partners:
   <div class="container">
     <div class="row stack-sm text-center align-center">
       <div class="column-6">
-        <h1 class="color-white">{{ page.header.title }}</h1>
-        <!--<p>{{ page.header.blurb }}</p>-->
-        <a href="{{ page.header.button.link }}" class="btn btn-primary btn-large">{{ page.header.button.text }}</a>
+        <h1>{{ page.header.title }}</h1>
       </div>
     </div>
   </div>
@@ -137,7 +141,7 @@ partners:
         <h2 class="h4">{{ page.c2a.title }}</h2>
       </div>
       <div class="column-2">
-        <a href="{{ page.c2.button.link }}" class="btn btn-default btn-large">{{ page.c2a.button.text }}</a>
+        <a href="{{ page.c2a.button.link }}" class="btn btn-secondary btn-large" target="_blank">{{ page.c2a.button.text }}</a>
       </div>
     </div>
   </div>
@@ -234,15 +238,16 @@ partners:
         <h2 class="h2">Sponsors</h2>
         <h2 class="h4 secondary-headings">{{ page.placements-sponsors.sponsors-title }}</h2>
         <br>
-        <div class="row stack-sm columns-center">
+        <div class="row stack-sm columns-center align-center">
           {% for sponsor in page.placements-sponsors.sponsors %}
-            <div class="logos column-2">
+            <div class="logos column-3">
               <a href="{{ sponsor.sponsor.link }}" target="_blank">
                 <img src="{{ sponsor.sponsor.image }}" alt="{{ sponsor.sponsor.alt }}">
               </a>
             </div>
           {% endfor %}
         </div>
+        <p class="stand-out">{{ page.placements-sponsors.sponsors-c2a }}</p>
       </div>
     </div>
   </div>
