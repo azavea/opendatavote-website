@@ -6,7 +6,7 @@ seoDescription: "OpenDataVote - Vote to open government data & support your comm
 page-title: "Vote"
 ---
 ### The public voting phase will begin on April 10, 2017
-The current OpenDataVote is in coordination with <a href="http://www.phila.gov/it/Innovation/Pages/default.aspx" target="_blank">The City of Philadelphia</a> & <a href="https://www.opendataphilly.org/" target="_blank">OpenDataPhilly</a>.
+The current OpenDataVote is in coordination with <a href="https://beta.phila.gov/departments/office-of-open-data-and-digital-transformation/" target="_blank">The City of Philadelphia</a> & <a href="https://www.opendataphilly.org/" target="_blank">OpenDataPhilly</a>.
 
 The data nomination phase is currently underway!
 
