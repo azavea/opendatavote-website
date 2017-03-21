@@ -74,19 +74,23 @@ placements-sponsors:
         image: "/images/sponsors/reed-tech.png"
         link: "http://www.reedtech.com/"
         alt: "Reed Tech"
+    - sponsor:
+        image: "/images/sponsors/knight-foundation.png"
+        link: "https://www.knightfoundation.org/"
+        alt: "Knight Foundation"
     
 
   award-title: "The nonprofit organizations that win the most votes from the public will receive cash prizes from our generous sponsors"
   awards:
     - award:
         place: "First"
-        prize: "$2,000"
+        prize: "$4,000"
     - award:
         place: "Second"
-        prize: "$1,000"
+        prize: "$2,000"
     - award:
         place: "Third"
-        prize: "$500"
+        prize: "$1,000"
 
 partners:
   title: "OpenDataVote is a cooperative effort between several organizations."
@@ -240,7 +244,7 @@ partners:
         <br>
         <div class="row stack-sm columns-center align-center">
           {% for sponsor in page.placements-sponsors.sponsors %}
-            <div class="logos column-3">
+            <div class="logos column-2">
               <a href="{{ sponsor.sponsor.link }}" target="_blank">
                 <img src="{{ sponsor.sponsor.image }}" alt="{{ sponsor.sponsor.alt }}">
               </a>
