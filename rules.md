@@ -9,7 +9,7 @@ page-title: "Rules and Eligibility"
 OpenDataVote is open to 501c(3) organizations based in Philadelphia or regional organizations with service area that significantly overlaps with Philadelphia. However, these organizations may receive votes for their proposed data set from anyone in the world.
 
 ### Voter Eligibility
-Individuals must register to vote for a data set. Each person may only vote once, or if feasible, once within a given time period.
+Anyone with a valid email address can vote. Voters do not need to live in the Philadelphia region to participate. Each person may vote once per day. We encourage all voters to register at <a href="https://www.opendataphilly.org/" target="_blank">OpenDataPhilly</a>.
 
 ---
 
@@ -17,7 +17,7 @@ Individuals must register to vote for a data set. Each person may only vote once
 The following rules apply to the operation of the contest:
 
 #### For the nonprofit organization participants:
-- Nonprofit organizations may nominate more than one data set, but only one data set will move forward to the voting phase
+- Nonprofit organizations may nominate up to 2 data sets
 - Data set nominations should adhere to the following guidelines:
   - Data sets gathered by the City of Philadelphia, other public authorities or civic-oriented organizations
   - If the data were made public, it would not result in a privacy or security concern (examples of this might include individual medical records, individual human services records or individual criminal history)
@@ -30,18 +30,18 @@ The following rules apply to the operation of the contest:
   - Organization URL
   - Contact Person
   - Contact Phone Number
-  - Contact EMail
+  - Contact Email
   - Data Set to Nominate
   - If this data set were available, how would your organization use it?
   - How would this data set contribute to your organization's mission?
 - Organizations may encourage people to vote for their project using any means available to them including: outreach, newsletters, email, Twitter, Facebook, Google+, etc.
-- If your organization wins a prize, you will be expected to have a representative attend one or more of the hack-a-thon events in order to pitch
+- All nonprofits that enter nominations are encouraged to attend a closing event where the winners will be announced
+
 
 #### For the general public:
-- You must register with OpenDataPhilly in order to vote
-- One vote per week per individual person for this contest – if you vote early, you’ll be able to vote more often!!
-- Once registered, you are free to vote for other data sets through the normal OpenDataPhilly nomination system and may vote on multiple data sets in this context
+- One vote per day per individual person for this contest – if you vote early, you’ll be able to vote more often!!
 - Any attempt to automate the voting process by generating fake email addresses and names will render those votes ineligible and may disqualify the nonprofit organization
+
 
 #### Other rules & notes:
 - The Contest Partners will make the final selection of data sets that will be made available for voting

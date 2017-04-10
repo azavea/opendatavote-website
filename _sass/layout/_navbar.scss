@@ -20,10 +20,12 @@
     a {
       color: $shade-normal;
       padding: 1rem 1.5rem;
+      font-weight: 600;
 
       &:hover {
         background-color: $brand-primary;
         border-radius: $border-radius-base;
+        color: #fff;
       }
     }
   }
