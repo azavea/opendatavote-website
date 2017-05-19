@@ -5,6 +5,33 @@ seoDescription: "OpenDataVote - Vote to open government data & support your comm
 
 page-title: "History"
 ---
+### 2017 OpenDataVote in Philadelphia
+
+In 2017, Azavea partnered with Tech Impact, Technical.ly Media, Code for Philly, the City of Philadelphia, the Penn Library, and others to run OpenDataVote, a chance a nonprofits and the public to advocate for open data in Philadelphia.
+
+The winning organizations for the 2017 OpenDataVote in Philadelphia were:
+
+**1st Place:** <br>
+*MicroSociety, Donors to the Philadelphia School District* <br>
+MicroSociety plans to measure the impacts that nonprofit programs are having on the school district with this data.
+
+**2nd Place:** <br>
+*Philadelphia Chinatown Development Corporation, Public Housing and City-Subsidized Housing Program Beneficiaries* <br>
+This organization plans to use the data to advocate for fair housing for the immigrant & English Language Learner (ELL) population in Philly.
+
+**3rd Place:** <br>
+*PHS, Street Rights-of-Way* <br>
+PHS plans to use the data to drive planting decisions & planning to streamline the street tree approval and planting process for Tree Tenders and the city’s street tree office. This will support the Tree Tenders/Plant One Million street tree planting, a partnership with the Parks and Recreation Department.
+
+**Special Recognition:** <br>
+*Community Legal Services, Water Department Lead Service Lines* <br>
+This group lead voting for the first weeks of the voting period. The Advisory Board decided to recognize this organization for their advocacy for open data for the benefit of the community.
+The release of this data would facilitate counseling families by Community Legal Services regarding potential risk of lead exposure from water service lines and connecting families to resources to prevent potential lead exposure.
+
+Thanks to donations from the [Knight Foundation](https://knightfoundation.org/) and [ReedTech](http://www.reedtech.com/), $8,000 in prizes were awarded to the winning organizations. The Open Data team at the City is now beginning an effort to publish the data sets that received the most votes from the public.
+
+---
+
 In 2011, the OpenDataPhilly project team launched a public awareness campaign similar to OpenDataVote in order to encourage the City of Philadelphia to release more data sets that could potentially serve the nonprofit community. The effort was quite successful - it attracted more attention to the community-driven open data effort in Philadelphia and many of the nominated data sets have been released in the years since then. [Read more about the previous effort.](http://technical.ly/project/open-data-race/)
 
 ### Lasting Impact

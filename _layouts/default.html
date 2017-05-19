@@ -26,10 +26,28 @@
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
 
 </head>
-<body {%if page.page-class%} class="{{ page.page-class }}" {% endif %}>
+<body {%if page.page-class%} class="{{ page.page-class }} {% if page.url == '/' %}no-scroll{% endif %}" {% endif %}>
   {{ content }}
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+  {% if page.url == "/" %}
+  <script>
+    $('.close-modal, .modal-backdrop').on('click', function(el) {
+      el.preventDefault();
+
+      $('.modal').remove();
+      $('body').removeClass('no-scroll');
+    });
+
+    $(document).keyup(function(e) {
+      if (e.keyCode == 27) {
+        $('.modal').remove();
+        $('body').removeClass('no-scroll');
+      }
+    });
+  </script>
+  {% endif %}
 </body>
 </html>
 
