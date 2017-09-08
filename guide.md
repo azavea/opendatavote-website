@@ -8,7 +8,7 @@ page-title: "Guide"
 ### hello world
 
 <div class="panel" markdown="1">
-this is a dark panel
+this is a dark paneliuhiuhhdhh
 </div>
 
 <div class="panel light" markdown="1">
