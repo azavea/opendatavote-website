@@ -4,7 +4,7 @@ footer {
   background-color: $shade-normal;
   padding-top: 4rem;
   padding-bottom: 4rem;
-  color: $shade-normal;
+  color: #fff;
 
   .brand {
     max-width: 20rem;
@@ -31,11 +31,15 @@ footer {
     margin-top: -4rem;
     padding: 4rem 0;
     margin-bottom: 20px;
-    background-color: #6CECD5;
+    background-color: $brand-primary;
 
-    p {
+    p, .h3 {
       max-width: inherit;
-      color: $shade-normal;
+      color: #fff;
+    }
+
+    .btn {
+      margin-top: 10px;
     }
   }
 }
