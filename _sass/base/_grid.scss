@@ -61,6 +61,12 @@
     flex: none;
     padding: $column-padding;
     width: ($i/$column-count) * 100%;
+
+    @media (max-width: 991px) {
+      flex: 1;
+      padding: $column-padding;
+      width: auto;
+    }
   }
 }
 

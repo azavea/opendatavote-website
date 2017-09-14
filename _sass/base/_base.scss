@@ -20,8 +20,10 @@ a {
 	font-weight: 400;
 	color: $brand-primary;
 
-  &:hover {
-    color: $shade-light;
+  &:hover,
+  &:focus {
+    color: $shade-normal;
+    text-decoration: underline;
     cursor: pointer;
   }
 
@@ -29,8 +31,10 @@ a {
     opacity: .5;
     cursor: not-allowed;
 
-    &:hover {
-      color: $shade-light;
+    &:hover,
+    &:focus {
+      color: $shade-normal;
+      text-decoration: underline;
     }
   }
 }

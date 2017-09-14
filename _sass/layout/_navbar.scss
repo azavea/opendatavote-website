@@ -22,10 +22,12 @@
       padding: 1rem 1.5rem;
       font-weight: 600;
 
-      &:hover {
+      &:hover,
+      &:focus {
         background-color: $brand-primary;
         border-radius: $border-radius-base;
         color: #fff;
+        text-decoration: none;
       }
     }
   }
