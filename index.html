@@ -24,6 +24,7 @@ purpose:
 
 about:
   title: "OpenDataVote timeline"
+  subtitle: "Hello World"
   phase:
     one:
       title: "Nomination"
@@ -167,29 +168,30 @@ partners:
 <section class="about">
   <div class="container">
     <h2 class="h2 text-center">{{ page.about.title }}</h2>
+    <p class="about-subtitle">{{ page.about.subtitle }}</p>
     <div class="row stack-sm align-center">
-      <div class="column">
+      <div class="column-4">
         <div class="card">
           <span class="phase">{{ page.about.phase.one.subtitle }}</span>
           <h2 class="h3 card-title">{{ page.about.phase.one.title }}</h2>
           <p>{{ page.about.phase.one.blurb }}</p>
         </div>
       </div>
-      <div class="column">
+      <div class="column-4">
         <div class="card">
           <span class="phase">{{ page.about.phase.two.subtitle }}</span>
           <h2 class="h3 card-title">{{ page.about.phase.two.title }}</h2>
           <p>{{ page.about.phase.two.blurb }}</p>
         </div>
       </div>
-      <div class="column">
+      <div class="column-4">
         <div class="card">
           <span class="phase">{{ page.about.phase.three.subtitle }}</span>
           <h2 class="h3 card-title">{{ page.about.phase.three.title }}</h2>
           <p>{{ page.about.phase.three.blurb }}</p>
         </div>
       </div>
-      <div class="column">
+      <div class="column-4">
         <div class="card">
           <span class="phase">{{ page.about.phase.four.subtitle }}</span>
           <h2 class="h3 card-title">{{ page.about.phase.four.title }}</h2>
@@ -206,8 +208,10 @@ partners:
   <div class="container">
     <div class="row stack-sm align-center columns-center">
       <div class="column-6 text-center">
-        > {{ page.quote.title }}
-        <p class="h5">{{ page.quote.subtitle }}</p>
+        <div class="quote">
+          <blockquote>{{ page.quote.title }}</blockquote>
+          <p class="quote-attribution">{{ page.quote.subtitle }}</p>
+        </div>
       </div>
     </div>
   </div>

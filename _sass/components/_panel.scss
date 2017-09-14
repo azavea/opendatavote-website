@@ -17,6 +17,16 @@
     }
   }
 
+  &.bordered {
+    background-color: transparent;
+    border: 2px solid #eaf0f3;
+    color: $shade-normal;
+
+    @include heading-tags {
+      color: $shade-normal;
+    }
+  }
+
   + .panel {
     margin-top: 2rem;
   }
