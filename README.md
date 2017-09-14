@@ -20,7 +20,11 @@ Next, login to the Vagrant virtual machine and launch the Jekyll services:
 
 ```bash
 $ vagrant ssh
-vagrant@vagrant-ubuntu-trusty-64:/vagrant$ ./scripts/server
+vagrant@vagrant-ubuntu-trusty-64:/vagrant
+```
+
+```bash
+$ ./scripts/server
 Recreating vagrant_jekyll_1
 Attaching to vagrant_jekyll_1
 jekyll_1  | Configuration file: /usr/src/app/_config.yml
