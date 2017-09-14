@@ -1,11 +1,11 @@
 ---
 layout: default
-title: "Vote to open government data &amp; support your community"
-seoDescription: "OpenDataVote - Vote to open government data &amp; support your community"
+title: "OpenDataVote - engage the public to prioritize open data releases"
+seoDescription: "OpenDataVote - engage the public to prioritize open data releases"
 page-class: homepage
 
 header:
-  title: "Vote to encourage your government to publish open data"
+  title: "Engage the public to prioritize open data releases"
   blurb: "Community groups nominate data that would help them have greater postive impact, then the public votes for the data they want to support."
   button:
     text: "Join the cause"
@@ -23,12 +23,13 @@ purpose:
   subtitle:
 
 about:
-  title: "OpenDataVote is organized into three phases"
+  title: "OpenDataVote timeline"
   phase:
     one:
       title: "Nomination"
       subtitle: "Phase 1"
-      blurb: "Nonprofit organizations nominate one or more existing data sets that would be useful to the organization, but aren't currently available to the public."
+      blurb: "Organizations nominate government data sets that would support work that benefits the community."
+      old-blurb: "Nonprofit organizations nominate one or more existing data sets that would be useful to the organization, but aren't currently available to the public."
     two:
       title: "Voting"
       subtitle: "Phase 2"
@@ -36,7 +37,16 @@ about:
     three:
       title: "Data Release"
       subtitle: "Phase 3"
-      blurb: "OpenDataVote Partners will work with government representatives to publish the data sets that receive the most votes from the public. Nonprofits will be awarded prize money from OpenDataVote Sponsors if their data nomination wins!"
+      blurb: "Local government publishes data sets that receive the most votes from the public."
+      old-blurb: "OpenDataVote Partners will work with government representatives to publish the data sets that receive the most votes from the public. Nonprofits will be awarded prize money from OpenDataVote Sponsors if their data nomination wins!"
+    four:
+      title: "Results"
+      subtitle: "Phase 4"
+      blurb: "Open data access allows participating organizations and government alike to complete projects that benefit the community."
+
+quote:
+  title: "Our goal is to help those not familiar with data transform rows of text, numbers, and shapes into applications and visualizations that inform the public and help improve our region’s well-being, inspire action, and contribute to a more dynamic community."
+  subtitle: "- Robert Cheetham, Founder &amp; CEO of Azavea"
 
 calendar:
   title: "Dates to Remember"
@@ -82,7 +92,7 @@ placements-sponsors:
         image: "/images/partners/techimpact.png"
         link: "http://techimpact.org/"
         alt: "TechImpact PA"
-    
+
 
   award-title: "The nonprofit organizations that win the most votes from the public will receive cash prizes from our generous sponsors"
   awards:
@@ -156,7 +166,7 @@ partners:
 <!-- about -->
 <section class="about">
   <div class="container">
-    <h2 class="h3 text-center">{{ page.about.title }}</h2>
+    <h2 class="h2 text-center">{{ page.about.title }}</h2>
     <div class="row stack-sm align-center">
       <div class="column">
         <div class="card">
@@ -179,9 +189,29 @@ partners:
           <p>{{ page.about.phase.three.blurb }}</p>
         </div>
       </div>
+      <div class="column">
+        <div class="card">
+          <span class="phase">{{ page.about.phase.four.subtitle }}</span>
+          <h2 class="h3 card-title">{{ page.about.phase.four.title }}</h2>
+          <p>{{ page.about.phase.four.blurb }}</p>
+        </div>
+      </div>
     </div>
   </div>
 </section>
 <!-- about -->
+
+<!-- Quote -->
+<section class="purpose">
+  <div class="container">
+    <div class="row stack-sm align-center columns-center">
+      <div class="column-6 text-center">
+        > {{ page.quote.title }}
+        <p class="h5">{{ page.quote.subtitle }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Quote -->
 
 {% include footer.html %}
