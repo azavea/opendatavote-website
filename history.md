@@ -9,9 +9,9 @@ In 2011, the [OpenDataPhilly](https://www.opendataphilly.org/) project team laun
 
 A lot has changed since 2011. The City of Philadelphia now has a Chief Data Officer, open data is now part of the City's policy, and there is an active staff supporting the initiative. Open Data Philly has grown from about 100 data sets to almost 350, and open data is being used in many locations across the region.
 
-Add Transition...
+The OpenDataPhilly project team was encouraged by these successes and decided to launch a similar public awareness campaign in 2017. OpenDataVote in Philadelphia engaged about two dozen nonprofit organizations and over 2,500 votes from the public. The City of Philadelphia is coordinating with the partcipating nonprofit organizations to publish the data on OpenDataPhilly.
 
-"Transform rows of text, numbers, and shapes into applications and visualizations that inform the public and help improve the region's well-being, inspire action, and contribute to a more dynamic community."
+We're working with other cities to organize OpenDataVote around the country in 2018. Read the <a href="/guide">Guide</a> to learn more about how to run OpenDataVote in your city and <a href="mailto:info@opendatavote.org?subject=OpenDataVote Contact Form Inquiry">reach out to us</a> to let us know you're interested!
 
 ---
 
