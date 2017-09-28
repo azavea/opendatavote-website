@@ -45,6 +45,10 @@ section.about {
   background-repeat: repeat-x;
   background-position: bottom 10px left;
 
+  a:hover {
+      color: #fff;
+  }
+
   h2:not(.card-title) {
     color: #fff;
   }
@@ -58,10 +62,10 @@ section.about {
 
   .about-subtitle {
     color: white;
-    font-size: 2.3rem;
+    font-size: 1.8rem;
     font-weight: 300;
     text-align: center;
-    margin-top: -20px;
+    margin-top: 10px;
   }
 }
 
