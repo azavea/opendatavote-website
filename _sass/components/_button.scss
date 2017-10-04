@@ -127,14 +127,14 @@
 }
 
 .btn-danger {
-	background: $danger;
+  background: $danger;
   border-color: darken($danger, 5%);
   color: #fff;
 
   @include button-states($danger);
 }
 
-/* 
+/*
  * Button Sizes
  */
 .btn-tiny {
@@ -160,7 +160,7 @@
   width: 100%;
 }
 
-/* 
+/*
  * Button groups
  */
  .btn-group {

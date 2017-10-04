@@ -9,7 +9,7 @@
   }
 
   &.light {
-    background-color: #eaf0f3;
+    background-color: #e4ebef;
     color: $shade-normal;
 
     @include heading-tags {
@@ -19,7 +19,7 @@
 
   &.bordered {
     background-color: transparent;
-    border: 2px solid #eaf0f3;
+    border: 2px solid #c0cdd2;
     color: $shade-normal;
 
     @include heading-tags {
