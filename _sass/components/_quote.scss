@@ -1,0 +1,26 @@
+.quote {
+  position: relative;
+
+  &:before {
+    content: open-quote;
+    position: absolute;
+    font-size: 130px;
+    left: -10px;
+    top: 0;
+    line-height: 85px;
+    opacity: 0.4;
+    color: $brand-primary;
+  }
+}
+
+blockquote {
+  font-size: 1.9rem;
+  line-height: 1.6;
+  color: $gray-darker;
+}
+
+.quote-attribution {
+  font-weight: 400;
+  color: $gray-darker;
+  margin: 0;
+}

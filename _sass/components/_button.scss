@@ -41,7 +41,8 @@
   user-select: none;
   background: #fff;
   border: 1px solid $shade-light;
-  color: $shade-light;;
+  color: $shade-light;
+  text-decoration: none !important;
 
   &:hover, &.hover,
   &:active, &.active, {
@@ -56,6 +57,7 @@
   &:focus, &.focus {
     outline: none;
     box-shadow: 0 1px 2px -1px $brand-primary;
+    text-decoration: none;
   }
 
   // Note: <buttons> and <a> handle active+focus differently. This will normalize behaviour.
@@ -125,14 +127,14 @@
 }
 
 .btn-danger {
-	background: $danger;
+  background: $danger;
   border-color: darken($danger, 5%);
   color: #fff;
 
   @include button-states($danger);
 }
 
-/* 
+/*
  * Button Sizes
  */
 .btn-tiny {
@@ -158,7 +160,7 @@
   width: 100%;
 }
 
-/* 
+/*
  * Button groups
  */
  .btn-group {

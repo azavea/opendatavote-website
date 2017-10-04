@@ -1,11 +1,11 @@
 ---
 layout: default
-title: "Vote to open government data &amp; support your community"
-seoDescription: "OpenDataVote - Vote to open government data &amp; support your community"
+title: "engage the public to prioritize open data releases"
+seoDescription: "OpenDataVote - engage the public to prioritize open data releases"
 page-class: homepage
 
 header:
-  title: "Vote to encourage your government to publish open data"
+  title: "Engage the public to prioritize open data releases"
   blurb: "Community groups nominate data that would help them have greater postive impact, then the public votes for the data they want to support."
   button:
     text: "Join the cause"
@@ -23,20 +23,29 @@ purpose:
   subtitle:
 
 about:
-  title: "OpenDataVote is organized into three phases"
+  title: "Timeline"
+  subtitle: "This initiative is generally divided into 4 phases, but this process can be modified to fit your needs! Check out the <a href='/guide'>Guide</a> for more info how how to run your own OpenDataVote."
   phase:
     one:
       title: "Nomination"
       subtitle: "Phase 1"
-      blurb: "Nonprofit organizations nominate one or more existing data sets that would be useful to the organization, but aren't currently available to the public."
+      blurb: "Organizations submit nominations for existing unpublished data they would like the government to release as open data."
     two:
       title: "Voting"
       subtitle: "Phase 2"
-      blurb: "The general public votes for either their favorite organization or the data set they want to see released."
+      blurb: "The general public votes for the data nomination that they would like published as open data."
     three:
       title: "Data Release"
       subtitle: "Phase 3"
-      blurb: "OpenDataVote Partners will work with government representatives to publish the data sets that receive the most votes from the public. Nonprofits will be awarded prize money from OpenDataVote Sponsors if their data nomination wins!"
+      blurb: "Local government coordinates with OpenDataVote partners and nominating organizations to publish data sets that receive the most votes from the public."
+    four:
+      title: "Results"
+      subtitle: "Phase 4"
+      blurb: "Open data access allows participating organizations, government agencies, and the general public to complete projects that benefit the community."
+
+quote:
+  title: "Our goal is to help those not familiar with data transform rows of text, numbers, and shapes into applications and visualizations that inform the public and help improve our region’s well-being, inspire action, and contribute to a more dynamic community."
+  subtitle: "- Robert Cheetham, Founder &amp; CEO of Azavea"
 
 calendar:
   title: "Dates to Remember"
@@ -82,7 +91,7 @@ placements-sponsors:
         image: "/images/partners/techimpact.png"
         link: "http://techimpact.org/"
         alt: "TechImpact PA"
-    
+
 
   award-title: "The nonprofit organizations that win the most votes from the public will receive cash prizes from our generous sponsors"
   awards:
@@ -140,21 +149,6 @@ partners:
 </div>
 <!-- Header -->
 
-<!-- Call to action -->
-<section id="call-to-action" class="call-to-action">
-  <div class="container">
-    <div class="row stack-sm align-center columns-center">
-      <div class="column-6 text-center">
-        <span class="phase">{{ page.c2a.phase }}</span>
-        <h2 class="h4">{{ page.c2a.title }}</h2>
-        <br>
-        <a href="{{ page.c2a.button.link }}" class="btn btn-secondary btn-large" target="_blank">{{ page.c2a.button.text }}</a>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- Call to action -->
-
 <!-- Purpose -->
 <section class="purpose">
   <div class="container">
@@ -171,27 +165,35 @@ partners:
 <!-- about -->
 <section class="about">
   <div class="container">
-    <h2 class="h3 text-center">{{ page.about.title }}</h2>
+    <h2 class="h2 text-center">{{ page.about.title }}</h2>
+    <p class="about-subtitle">{{ page.about.subtitle }}</p>
     <div class="row stack-sm align-center">
-      <div class="column">
+      <div class="column-4">
         <div class="card">
           <span class="phase">{{ page.about.phase.one.subtitle }}</span>
           <h2 class="h3 card-title">{{ page.about.phase.one.title }}</h2>
           <p>{{ page.about.phase.one.blurb }}</p>
         </div>
       </div>
-      <div class="column">
+      <div class="column-4">
         <div class="card">
           <span class="phase">{{ page.about.phase.two.subtitle }}</span>
           <h2 class="h3 card-title">{{ page.about.phase.two.title }}</h2>
           <p>{{ page.about.phase.two.blurb }}</p>
         </div>
       </div>
-      <div class="column">
+      <div class="column-4">
         <div class="card">
           <span class="phase">{{ page.about.phase.three.subtitle }}</span>
           <h2 class="h3 card-title">{{ page.about.phase.three.title }}</h2>
           <p>{{ page.about.phase.three.blurb }}</p>
+        </div>
+      </div>
+      <div class="column-4">
+        <div class="card">
+          <span class="phase">{{ page.about.phase.four.subtitle }}</span>
+          <h2 class="h3 card-title">{{ page.about.phase.four.title }}</h2>
+          <p>{{ page.about.phase.four.blurb }}</p>
         </div>
       </div>
     </div>
@@ -199,129 +201,19 @@ partners:
 </section>
 <!-- about -->
 
-<!-- Key dates -->
-<section class="key-dates">
-  <div class="container">
-    <h2 class="h2 text-center">{{ page.calendar.title }}</h2>
-    <div class="row stack-sm align-center">
-      {% for date in page.calendar.keydates %}
-      <div class="column">
-        <div class="card date">
-          <h4 class="card-title">
-            {{ date.keydate.date }}<br>
-            <span>{{ date.keydate.day }}</span>
-          </h2>
-          <div class="card-body">
-            <p>{{ date.keydate.event }}</p>
-          </div>
-        </div>
-      </div>
-      {% endfor %}
-    </div>
-  </div>
-</section>
-<!-- Key dates -->
-
-<!-- Awards & Sponsors -->
-<section class="awards">
-  <div class="container">
-    <div class="row stack-sm align-center">
-      <div class="column-6 text-center">
-        <h2 class="h2 text-center">Prizes</h2>
-        <h2 class="h4 secondary-headings">{{ page.placements-sponsors.award-title }}</h2>
-        <div class="award-block stack-xs">
-          {% for prize in page.placements-sponsors.awards %}
-            <div class="award" id="{{ prize.award.place }}">
-              <h4 class="award-title">{{ prize.award.place }}</h4>
-              <div class="award-body">
-                <p>{{ prize.award.prize }}</p>
-              </div>
-            </div>
-          {% endfor %}
-        </div>
-      </div>
-      <div class="column-6 text-center">
-        <br>
-        <h2 class="h2">Sponsors</h2>
-        <h2 class="h4 secondary-headings">{{ page.placements-sponsors.sponsors-title }}</h2>
-        <br>
-        <div class="row stack-sm columns-center align-center">
-          {% for sponsor in page.placements-sponsors.sponsors %}
-            <div class="logos column-2">
-              <a href="{{ sponsor.sponsor.link }}" target="_blank">
-                <img src="{{ sponsor.sponsor.image }}" alt="{{ sponsor.sponsor.alt }}">
-              </a>
-            </div>
-          {% endfor %}
-        </div>
-        <p class="stand-out">{{ page.placements-sponsors.sponsors-c2a }}</p>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- Awards & Sponsors -->
-
-<!-- Partners -->
-<section class="partners">
+<!-- Quote -->
+<section class="purpose">
   <div class="container">
     <div class="row stack-sm align-center columns-center">
       <div class="column-6 text-center">
-        <h2 class="h2">Partners</h2>
-        <h2 class="h4">{{ page.partners.title }}</h2>
-        <div class="row stack-sm align-center columns-center">
-          {% for partner in page.partners.partners %}
-            <div class="logos column-2">
-              <a href="{{ partner.partner.link }}" target="_blank">
-                <img src="{{ partner.partner.image }}" alt="{{ partner.partner.alt }}">
-              </a>
-            </div>
-          {% endfor %}
+        <div class="quote">
+          <blockquote>{{ page.quote.title }}</blockquote>
+          <p class="quote-attribution">{{ page.quote.subtitle }}</p>
         </div>
       </div>
     </div>
   </div>
 </section>
-<!-- Partners -->
-
-<!-- Modal -->
-<div class="modal">
-  <div class="modal-backdrop"></div>
-  <div class="modal-body">
-    <button class="close-btn btn close-modal">Close</button>
-    <h3 class="text-center">
-      <span class="color-primary">OpenDataVote in Philadelphia has come to a close!</span> <br>
-      <small>Congratulations to the winning organizations!</small>
-    </h3>
-    <hr>
-    <h4>1st Place</h4>
-    <p>
-    <strong>MicroSociety, Donors to the Philadelphia School District</strong> <br>
-    They plan to measure the impacts that nonprofit programs are having on the school district with this data.
-    </p>
-    <h4>2nd Place</h4>
-    <p>
-    <strong>Philadelphia Chinatown Development Corporation, Public Housing and City-Subsidized Housing Program Beneficiaries</strong> <br>
-    This organization plans to use the data to advocate for fair housing for the immigrant & English Language Learner (ELL) population in Philly.
-    </p>
-    <h4>3rd Place</h4>
-    <p>
-    <strong>PHS, Street Rights-of-Way</strong> <br>
-    PHS plans to use the data to drive planting decisions & planning to streamline the street tree approval and planting process for Tree Tenders and the city’s street tree office. This will support the Tree Tenders/Plant One Million street tree planting, a partnership with the Parks and Recreation Department.
-    </p>
-    <h4>Special Recognition</h4>
-    <p>
-    <strong>Community Legal Services, Water Department Lead Service Lines</strong> <br>
-    This group lead voting for the first weeks of the voting period. The Advisory Board decided to recognize this organization for their advocacy for open data for the benefit of the community.
-    The release of this data would facilitate counseling families by Community Legal Services regarding potential risk of lead exposure from water service lines and connecting families to resources to prevent potential lead exposure.
-    </p>
-    <hr>
-    <p>
-    In both 2011 and 2017 we organized OpenDataVote in Philadelphia. We’re interested in working with other cities in the future and would love to get your feedback. If you would like to bring OpenDataVote to your city, please let us know.
-    </p>
-    <button class="btn close-modal">Close</button>
-    <a class="btn btn-primary pull-right" href="mailto:info@opendatavote.org?subject=OpenDataVote Blog Inquiry">Contact us</a>
-  </div>
-</div>
-<!-- Modal -->
+<!-- Quote -->
 
 {% include footer.html %}

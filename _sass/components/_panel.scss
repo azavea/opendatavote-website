@@ -1,0 +1,33 @@
+.panel {
+  background-color: $shade-normal;
+  padding: 20px;
+  border-radius: 5px;
+  color: #fff;
+
+  @include heading-tags {
+    color: #fff;
+  }
+
+  &.light {
+    background-color: #e4ebef;
+    color: $shade-normal;
+
+    @include heading-tags {
+      color: $shade-normal;
+    }
+  }
+
+  &.bordered {
+    background-color: transparent;
+    border: 2px solid #c0cdd2;
+    color: $shade-normal;
+
+    @include heading-tags {
+      color: $shade-normal;
+    }
+  }
+
+  + .panel {
+    margin-top: 2rem;
+  }
+}
