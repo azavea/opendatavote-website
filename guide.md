@@ -29,7 +29,9 @@ this is a light panel
 <a href="#history">History</a>
 <a href="#why-host">Why Host OpenDataVote?</a>
 <a href="#objectives">Objectives</a>
-<a href="#process">Process</a>
+<a href="#planning">Planning Stage</a>
+<a href="#phase1">Phase 1: Nomination</a>
+<a href="#phase2">Phase 2: Voting</a>
 <a href="#data-release">Working Towards Data Releases</a>
 <a href="#resources">Resources</a>
 </div>
@@ -133,7 +135,7 @@ The format of OpenDataVote can be slightly different depending on the location, 
 
 <hr>
 
-<h2 id="process">Planning Stage</h2>
+<h2 id="planning">Planning Stage</h2>
 
 <h3 id="assemble-team">Assemble Team of Partners</h3>
 
@@ -192,7 +194,7 @@ It can be helpful to set the ending date for your OpenDataVote and work backward
 
 <hr>
 
-<h2>Phase 1: Nomination</h2>
+<h2 id="phase1">Phase 1: Nomination</h2>
 
 <h3>Create Data Set Nomination System</h3>
 
@@ -256,7 +258,7 @@ This is where your Advisory Board comes in. Review the list of data set nominati
 
 <hr>
 
-<h2>Phase 2: Voting</h2>
+<h2 id="phase2">Phase 2: Voting</h2>
 
 <h3>Set Up Voting Platform</h3>
 
@@ -289,13 +291,16 @@ Set the open voting period long enough that the Advisory Board, Partners, Sponso
 <img src="/images/favicon/android-chrome-192x192.png" width="68px" alt="OpenDataVote">
 </div>
 <div class="column-7">
-<p style="margin: 0;">During OpenDataVote Philly 2017, a combination of press releases, content marketing, social media outreach, and event attendance was used to engage the public. The team event deployed a mobile voting booth to bring awareness to OpenDataVote!</p>
+<p style="margin: 0;">During OpenDataVote Philly 2017, a combination of press releases, content marketing, social media outreach, and event attendance was used to engage the public. The team even deployed a mobile voting booth to bring awareness to OpenDataVote!</p>
 </div>
 </div>
 </div>
 <br>
 
-<img src="/images/guide/" alt="OpenDataVote organizer Dan Ford interviewed at an event with the OpenDataVote voting booth">
+<img src="/images/guide/2017_Philadelphia_OpenDataVote_VotingBooth01.png" width="100%" alt="OpenDataVote voting booth at a local tech event during Philly Tech Week 2017">
+<em>OpenDataVote voting booth at a local tech event during Philly Tech Week 2017</em>
+
+<img src="/images/guide/2017_Philadelphia_OpenDataVote_VotingBoothInterview.jpg" width="100%" alt="OpenDataVote organizer Dan Ford interviewed at an event with the OpenDataVote voting booth">
 <em>OpenDataVote organizer Dan Ford interviewed at an event with the OpenDataVote voting booth</em>
 
 <h3>Announce Winners</h3>
@@ -318,7 +323,8 @@ After the period of voting closes, the Advisory Board should review the results.
 
 Consider hosting an event to announce the organizations and data nominations that received the most votes. Invite participating organizations, sponsors, partners, and the Advisory Board about the event. Prepare certificates to award to participating organizations and winners.
 
-
+<img src="/images/guide/2017_Philadelphia_OpenDataVote_ClosingEvent.png" width="100%" alt="2017 Philadelphia OpenDataVote winning organizations announced during a Philly Tech Week event">
+<em>2017 Philadelphia OpenDataVote winning organizations announced during a Philly Tech Week event</em>
 
 <hr>
 

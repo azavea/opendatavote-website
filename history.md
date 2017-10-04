@@ -13,7 +13,7 @@ The OpenDataPhilly project team was encouraged by these successes and decided to
 <div class="panel light" markdown="1">
 <div class="row stack-sm">
 <div class="column-1 text-center">
-<i class="fa fa-line-chart" aria-hidden="true" style="font-size: 52px; color: #1ea5d8;"></i>
+<i class="fa fa-line-chart" aria-hidden="true" style="font-size: 68px; color: #1ea5d8;"></i>
 </div>
 <div class="column-7">
 <p style="margin: 0;">We're working with other cities to organize OpenDataVote around the country in 2018. Read the <a href="/guide">Guide</a> to learn more about how to run OpenDataVote in your city and <a href="mailto:info@opendatavote.org?subject=OpenDataVote Contact Form Inquiry">reach out to us</a> to let us know you're interested!</p>
@@ -102,19 +102,17 @@ The 2017 OpenDataVote in Philadelphia was nominated for [Partnership of the Year
 
 ## In the News
 
-["OpenDataVote just launched. Here’s why nonprofits should care"](http://generocity.org/philly/2017/03/06/opendatavote-launch-nonprofits/)
+<a href="http://generocity.org/philly/2017/03/06/opendatavote-launch-nonprofits/" target="_blank">"OpenDataVote just launched. Here’s why nonprofits should care"</a><br>
 via Generocity
 
-["Now it’s your turn to choose what datasets the city should release"](https://technical.ly/philly/2017/03/07/opendatavote-azavea-opendatarace/)
+<a href="https://technical.ly/philly/2017/03/07/opendatavote-azavea-opendatarace/" target="_blank">"Now it’s your turn to choose what datasets the city should release"</a><br>
 via Technical.ly Philly
 
-["OpenDataVote nominated for 2017 Partnership of the Year in the Philly Geek Awards"](https://www.phillygeekawards.com/nominations/2017-nominees/) via Technical.ly Media &amp; Geekadelphia
+<a href="https://www.phillygeekawards.com/nominations/2017-nominees/" target="_blank">"OpenDataVote nominated for 2017 Partnership of the Year in the Philly Geek Awards"</a><br>
+via Technical.ly Media &amp; Geekadelphia
 
-["These Advocates Want to Make Sure Our Data Doesn't Disappear"](https://www.pcmag.com/article/355327/these-advocates-want-to-make-sure-our-data-doesnt-disappear)
+<a href="https://www.pcmag.com/article/355327/these-advocates-want-to-make-sure-our-data-doesnt-disappear" target="_blank">"These Advocates Want to Make Sure Our Data Doesn't Disappear"</a><br>
 via PC Mag
 
-["How nonprofits are using data from OpenDataVote to ‘start a conversation’ about systemic change"](http://generocity.org/philly/2017/09/05/nonprofits-winners-opendatavote-data-sets/)<br>
+<a href="http://generocity.org/philly/2017/09/05/nonprofits-winners-opendatavote-data-sets/" target="_blank">"How nonprofits are using data from OpenDataVote to ‘start a conversation’ about systemic change"</a><br>
 via Generocity
-
-["The City of Philadelphia Partners with Nonprofits on Big Data Analytics"](https://nonprofitquarterly.org/2017/09/21/city-philadelphia-partners-nonprofits-big-data-analytics/)<br>
-via NonprofitQuarterly
