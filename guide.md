@@ -57,11 +57,11 @@ The general public votes for the data nomination that they would like published 
 
 <h5>Phase 3: Data Release</h5>
 
-Local government coordinates with OpenDataVote partners and nominating organizations to publish data sets that receive the most votes from the public.
+The local or state government coordinates with OpenDataVote partners and nominating organizations to prioritize publishing data sets that receive the most votes from the public.
 
 <h5>Phase 4: Results</h5>
 
-Open data access allows participating organizations, government agencies, and the general public to complete projects that benefit the community.
+Open data access enables participating organizations, government agencies, and the general public to complete projects that benefit the community.
 
 <div class="panel bordered" markdown="1">
 <div class="row stack-sm">
@@ -69,7 +69,7 @@ Open data access allows participating organizations, government agencies, and th
 <i class="fa fa-exclamation-triangle" aria-hidden="true" style="font-size: 68px; color: #a1aeb3;"></i>
 </div>
 <div class="column-7">
-<p style="margin: 0;">Government agencies may not be able to promise that data will be released, however, government data offices often appreciate understanding what data citizens value most. An open data office (or similar) can use the results of the first two phases of OpenDataVote as leverage when requesting to publish data from other agencies or departments.</p>
+<p style="margin: 0;">Government agencies may not be able to promise that data will be released, however, government data offices often appreciate understanding what data citizens value most. An open data team can leverage the results of the first two phases of OpenDataVote as support when requesting to publish data from other agencies or departments.</p>
 </div>
 </div>
 </div>
@@ -101,11 +101,13 @@ Read more about the generous sponsors and winning organizations for the 2017 Ope
 
 Data analysis and visualization are important advocacy tools and have been used to <a href="http://blogs.edweek.org/edweek/early_years/2014/01/map_shows_pre-k_needs_in_phila_funding_results.html" target="_blank">help nonprofits acquire funding</a> and government agencies choose priority locations for programming. But, for these projects to take place, you need access to data.
 
+We ran OpenDataVote twice in Philadelphia, and we have had several inquiries over the past few years asking about the process. We have devleoped this guide to help those communities interested in running their own OpenDataVote. 
+
 Government agencies gather and maintain data that can be essential to projects that support communities from the local to national level. One of the main objectives of OpenDataVote is to encourage government agencies to provide open access to the data they collect and maintain.
 
 The Sunlight Foundation published, ”<a href="https://sunlightfoundation.com/2016/01/06/arguments-for-data-transparency-a-list-for-advocates/">Arguments for data transparency — a list for advocates</a>”, which summarizes the benefits of open data in different sectors.
 
-The process of OpenDataVote helps to foster a healthy community around the process of publishing open data and using that data for projects that create positive impact.
+The OpenDataVote process helps to foster a healthy community supporting release of open data and using that data for projects that create positive impact.
 
 <div class="panel bordered" markdown="1">
 <div class="row stack-sm">
